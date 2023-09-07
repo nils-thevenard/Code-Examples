@@ -1,0 +1,117 @@
+/* a lot of the heavy work for the header is done in css  */
+.Header {
+  background-color: white;
+  margin: 0;
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.RH {
+  display: flex;
+}
+.LH {
+  display: flex;
+  justify-content: flex-end;
+}
+.StarLogo {
+  margin: 0 40px 0 30px;
+  width: 110px;
+}
+.txt {
+  display: flex;
+  flex-direction: column;
+  color: #6c6c6c;
+  margin: 10px 5px 0 20px;
+}
+.txtProject {
+  font-size: 13px;
+  margin: 0;
+  font-weight: 900;
+}
+.txtIntroduction {
+  font-size: 8px;
+  margin: 0;
+  display: flex;
+  align-self: flex-start;
+}
+.projectCounter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.bigpoint {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(251, 255, 189);
+  border: 3px solid #43c0f6;
+  border-radius: 50%;
+  margin: 5px;
+  color: #6c6c6c;
+  font-size: 22px;
+  box-shadow: 0px 3px 6px #00000040;
+}
+.smallpoint {
+  height: 13px;
+  width: 13px;
+  background-color: white;
+  border: 3px solid #43c0f6;
+  border-radius: 50%;
+  margin: 3px;
+  box-shadow: 0px 3px 6px #00000040;
+}
+
+.buttons {
+  display: flex;
+  margin: 5px 0 5px 0;
+}
+.takeScreenshot {
+  height: 35px;
+  width: 200px;
+
+  border: none;
+  border-radius: 10px;
+  background-color: #e5ab2c;
+  color: white;
+  margin-right: 27px;
+}
+.moreProjects {
+  height: 35px;
+  width: 200px;
+
+  border: none;
+  border-radius: 10px;
+  background-color: #f91c85;
+  color: white;
+  margin-right: 27px;
+}
+.askTeacherForHelp {
+  height: 35px;
+  width: 200px;
+  border: none;
+  border-radius: 10px;
+  background-color: #43c0f6;
+  color: white;
+  margin-right: 27px;
+}
+.takeScreenshot:hover {
+  opacity: 0.5;
+}
+.askTeacherForHelp:hover {
+  opacity: 0.5;
+}
+.moreProjects:hover {
+  opacity: 0.5;
+}
+.Flags {
+  margin-right: 10px;
+}
+.NZFlag {
+  margin-right: 5px;
+}
+.NZFlag:hover {
+  opacity: 0.5;
+}
+.MaoriFlag:hover {
+  opacity: 0.5;
+}

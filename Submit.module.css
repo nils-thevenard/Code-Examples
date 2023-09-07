@@ -1,0 +1,31 @@
+.submitPage{
+    background-color: #B2E4FA;
+    height: 957px;
+}
+
+.submitBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 308px;
+    margin-right: 47px;
+    margin-bottom: 50px;
+    padding-top: 57px;
+    padding-left: 98px;
+    padding-right: 98px;
+    gap: 120px;
+    background-color: #FFFFFF80;
+    border-radius: 45px;
+}
+
+.vertLine{
+    display: flex;
+    margin-top: -56px;
+    color: rgb(0, 0, 0);
+    height:860px;
+    border: 1px solid rgba(0, 0, 0, 0.158);
+}
+
+
+

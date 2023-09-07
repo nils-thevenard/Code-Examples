@@ -1,0 +1,39 @@
+.annieSub{
+    max-width: 550px;
+    max-height: 290px;
+}
+
+.showTeacher{
+    color: #707070;
+    margin-top: 93px;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+.paraGraph2{
+    color: #707070;
+    margin-bottom: 48px;
+    font-size: 16px;
+}
+
+.icon2{
+    width: 50px;
+    height: 50px;
+    color: white;
+}
+
+.callBtn{
+    display: inline-block;
+    background-color: #F91C85;
+    color: white;
+    padding: 25px 55px;    
+    border-radius: 15px;
+    border-style: none;
+    text-decoration: none;
+}
+
+.callBtn:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
